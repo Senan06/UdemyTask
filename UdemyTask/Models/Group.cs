@@ -56,7 +56,7 @@ namespace UdemyTask.Models
                 Console.WriteLine("Qrup doludur!");
             }
         }
-        public void GetStudent(int Id)
+        public void GetStudent(int? Id)
         {
             for (int i = 0; i < Students.Length; i++)
             {
